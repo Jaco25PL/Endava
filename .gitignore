@@ -102,3 +102,6 @@ ENDAVA_PY_UV/activate/
 # macOS / Windows
 .DS_Store
 Thumbs.db
+
+# Windows reserved filename accidentally created
+NUL
