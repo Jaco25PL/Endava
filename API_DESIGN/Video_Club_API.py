@@ -327,7 +327,7 @@
 #-------------------------------------
 
 # obtener movies por nbname, gender o director
-# GET /movies?name=kill&director=tarantino&gender=action
+# GET /movies?name=kill&director=tarantino&gender=action&gender=romantic
 
 # response
 # 200
