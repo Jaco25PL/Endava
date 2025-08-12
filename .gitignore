@@ -1,2 +1,63 @@
-ENDAVA_PY/venv/
-ENDAVA_PY_UV/venv/
+# Python caches/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+*.whl
+MANIFEST
+
+# Test/coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+coverage.xml
+*.cover
+htmlcov/
+.hypothesis/
+
+# Type checker/static analysis
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Environments (any depth)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+**/.venv/
+**/venv/
+**/env/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local env files
+*.log
+logs/
+.env
+.env.*
+*.env
+
+# Notes:
+# - Keep uv’s lockfile (uv.lock) and pyproject.toml committed.

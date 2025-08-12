@@ -1,0 +1,30 @@
+# ### Proyecto Item API - Ejemplos REST Client
+
+@host = http://127.0.0.1:8000
+@json = application/json
+
+# ### Listar ítems
+GET {{host}}/items
+
+# ### Crear un ítem
+POST {{host}}/items
+Content-Type: {{json}}
+{
+  "name": "Book",
+  "price": 12.5
+}
+
+# ### Obtener por id
+# GET {{host}}/items/1
+
+# ### Actualizar por id
+# PUT {{host}}/items/1
+# Content-Type: {{json}}
+
+# {
+#   "name": "Updated Book",
+#   "price": 15.0
+# }
+
+# ### Eliminar por id
+# DELETE {{host}}/items/1
